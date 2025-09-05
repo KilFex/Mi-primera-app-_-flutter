@@ -10,17 +10,17 @@ class TextExample extends StatelessWidget {
       child: const Column(
         children: [
           Spacer(),
-          Text("example 1", style: TextStyle(fontSize: 24)),
+          Text("example 1", style: TextStyle(fontSize: 24, color: Colors.white70)),
           Text(
             "example 2",
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30, color: Colors.amber),
           ),
           Text(
             "example 3",
             style: TextStyle(
               fontStyle: FontStyle.italic,
               fontWeight: FontWeight.bold,
-              fontSize: 28,
+              fontSize: 28,color: Colors.yellow
             ),
           ),
           Spacer(),
