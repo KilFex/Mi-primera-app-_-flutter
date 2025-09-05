@@ -5,18 +5,20 @@ class ColumnExample extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Text("hola Lauraaaaa"),
-        Text("hola Lauraaaaa"),
-        Text("hola Lauraaaaa"),
-        Text("hola Lauraaaaa"),
-        Text("hola Lauraaaaa"),
-        Text("hola Lauraaaaa"),
-        Text("hola Lauraaaaa"),
-        Text("hola Lauraaaaa")
-        
-      ],
+    return Container(
+      color: const Color.fromARGB(255, 95, 95, 21),
+      width: 200,
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Text("hola Lauraaaaa"),
+          Text("hola Lauraaaaa"),
+          Text("hola Lauraaaaa"),
+          Text("hola Lauraaaaa"),
+          Text("hola Lauraaaaa"),
+        ],
+      ),
     );
   }
 }
